@@ -1,10 +1,10 @@
-# Basic VPC Setup
+# Lambda + API Gateway
 
-This configuration creates a VPC with one public and one private subnet, along with an Internet Gateway and a route table.
+This project creates a simple Python Lambda function and exposes it via API Gateway.
 
 ## Usage
 
-1. Update `variables.tf` as needed (subnet CIDRs, region, AZ).
+1. Make sure you have `lambda_function.py` in the same directory.
 2. Run:
    ```bash
    terraform init
